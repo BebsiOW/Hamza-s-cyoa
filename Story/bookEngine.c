@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 struct Page {
     char fileName[20];
@@ -11,30 +12,36 @@ void openPage(struct Page page);
 
 int main()
 {
-    printf("Welcome to Hamza's Choose Your Own Adventure! You will read through the story and select the corresponding number to the decision you want to make. Have fun!\n\n");
+    printf("Welcome to Hamza's Choose Your Own Adventure!\nYou will read through the story and select the corresponding number to the decision you want to make. Have fun!\n\n");
+
+    struct Page page;
+    int state = 1;
+    char c;
+
+    strcpy(page.fileName, "1.txt");
 
     while(1)
     {
-        struct Page page;
-        int state = 1;
-        char c;
-
+        
         openPage(page);
 
-        if (state == 1 && c == 'a')      state = 2;
-        else if (state == 1 && c == 'b') state = 3;
-        else if (state == 2 && c == 'a') state = 4;
-        else if (state == 2 && c == 'b') state = 5;
-        else if (state == 3 && c == 'a') state = 6;
-        else if (state == 3 && c == 'b') state = 11;
-        else if (state == 4 && c == 'a') state = 7;
-        else if (state == 4 && c == 'b') state = 8;
-        else if (state == 6 && c == 'a') state = 9;
-        else if (state == 6 && c == 'b') state = 10;
-        else if (state == 7 && c == 'a') state = 6;
-        else if (state == 7 && c == 'b') state = 3;
-        else if (state == 9 && c == 'a') state = 12;
-        else if (state == 9 && c == 'b') state = 10;
+        printf("\nChoice (a/b): ");
+        scanf(" %c", &c);
+
+        if (state == 1 && c == 'a') {strcpy(page.fileName, "2.txt"); state = 2;}
+        else if (state == 1 && c == 'b') {strcpy(page.fileName, "3.txt"); state = 3;}
+        else if (state == 2 && c == 'a') {strcpy(page.fileName, "4.txt"); state = 4;}
+        else if (state == 2 && c == 'b') {strcpy(page.fileName, "5.txt"); state = 5;}
+        else if (state == 3 && c == 'a') {strcpy(page.fileName, "6.txt"); state = 6;}
+        else if (state == 3 && c == 'b') {strcpy(page.fileName, "11.txt"); state = 11;}
+        else if (state == 4 && c == 'a') {strcpy(page.fileName, "7.txt"); state = 7;}
+        else if (state == 4 && c == 'b') {strcpy(page.fileName, "8.txt"); state = 8;}
+        else if (state == 6 && c == 'a') {strcpy(page.fileName, "9.txt"); state = 9;}
+        else if (state == 6 && c == 'b') {strcpy(page.fileName, "10.txt"); state = 10;}
+        else if (state == 7 && c == 'a') {strcpy(page.fileName, "6.txt"); state = 6;}
+        else if (state == 7 && c == 'b') {strcpy(page.fileName, "3.txt"); state = 3;}
+        else if (state == 9 && c == 'a') {strcpy(page.fileName, "12.txt"); state = 12;}
+        else if (state == 9 && c == 'b') {strcpy(page.fileName, "10.txt"); state = 10;}
 
         if (state == 3 || state == 4) break;  // Accepting state
 
@@ -51,10 +58,10 @@ void openPage(struct Page page)
         printf("Could not open %s\n", page.fileName);
     }
 
-    while (!feof(file))
+    char line[1000];
+
+    while (fgets(line, sizeof(line), file))
     {
-        char line[1000];
-        fgets(line, 1000, file);
         printf("%s", line);
     }
 
