@@ -9,5 +9,5 @@ You speak aloud to steady your nerves. “Sun or serpent… One leads to
 treasure, the other to doom.” The air in the sun tunnel is dry and warm; 
 the serpent tunnel exhales a foul-smelling draft. You grip the lantern tighter.
 
-a) Enter the sun-marked tunnel -> 9
-b) Enter the serpent-marked tunnel -> 10
+a) Enter the sun-marked tunnel
+b) Enter the serpent-marked tunnel

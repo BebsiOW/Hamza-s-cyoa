@@ -10,5 +10,5 @@ What am I?"
 You frown. “A riddle. Classic.” The chamber begins to shake, dust falling from 
 the ceiling. You don’t have much time.
 
-a) Answer: “A map” -> 12
-b) Guess randomly: “A ghost?” -> 10
+a) Answer: “A map”
+b) Guess randomly: “A ghost?”

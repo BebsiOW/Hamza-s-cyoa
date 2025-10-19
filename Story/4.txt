@@ -10,5 +10,5 @@ She studies you, then nods. â€œI will help you, if your intentions remain pure.â
 The spirit floats forward, motioning for you to follow. A hidden path opens 
 through the trees, leading you back toward the cavern.
 
-a) Accept the spirit's help -> 7
-b) Run away from the ghost -> 8
+a) Accept the spirit's help
+b) Run away from the ghost
