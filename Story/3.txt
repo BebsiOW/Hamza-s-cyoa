@@ -1,14 +1,8 @@
-3. Cave Entrance
+3. Volcano Fortress Trail
 
-The cave breathes a chill into your face as you step near. Just inside the 
-entrance, an old iron lantern lies beside a crumpled skeleton, clutching 
-a rusted dagger. You shiver. The tunnel beyond stretches into darkness, 
-its stone walls covered in ancient carvings.
+The ground rumbles as you climb. Lava bubbles below, hot wind in your face.
+You can see Bowser’s castle in the distance and an airship circling above.
+A Magikoopa appears on the trail, twirling its wand.
 
-“Well, no turning back,” you murmur, picking up the lantern. It flares to 
-life unexpectedly, glowing with a blue flame. “Creepy... but useful.” 
-
-The air is heavy here, but something deeper in the cave seems to call you.
-
-a) Take the lantern and go deeper
-b) Turn back—this seems dangerous
+a) Jump onto the airship
+b) Hide behind a rock

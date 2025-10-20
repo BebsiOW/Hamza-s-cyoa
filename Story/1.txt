@@ -1,16 +1,13 @@
-Objective: Retrieve the legendary treasure hidden deep within the Whispering
-Caverns. Beware — not all who seek it return.
+Objective: Take back the star key from King Bowser
 
-1. The Fork in the Forest
+1. The Fork in the Mushroom Forest
 
-You stand at a fork in the trail deep within the ancient Bramblewood Forest.
-The left path winds into a misty thicket, where silver fog weaves through
-trees like ghosts. The right path leads toward a craggy hill with a dark cave
-mouth yawning like an open jaw.
+The path splits ahead.
+Left goes into a thick part of the forest where Fire Flowers grow wild.
+Right climbs up a rocky hill that leads toward Bowser’s volcano fortress.
 
-A crow caws above you, startling you. You mutter to yourself, "Left or right...
-What did the old map say again?" The wind offers no answer. Somewhere out
-there lies the treasure of the Whispering Caverns — and the first step is yours.
+A Goomba scurries across the trail, trips on a root, and rolls away.
+Toad calls from behind you, “Mario! Hurry before Bowser uses the key!”
 
-a) Go left into the misty woods
-b) Go right toward the cave
+a) Go left toward the Fire Flower grove
+b) Go right toward the volcano fortress

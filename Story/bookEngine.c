@@ -47,10 +47,11 @@ int main()
         if (state == 5 || state == 8 || state == 10 || state == 11 || state == 12) 
         {
             openPage(page);
+            printf("\n");
             break;
         }
     }
-
+    
     return 0;
 }
 
