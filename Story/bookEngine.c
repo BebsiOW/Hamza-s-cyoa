@@ -27,6 +27,7 @@ int main()
 
         printf("\nChoice (a/b): ");
         scanf(" %c", &c);
+        printf("\n");
 
         if (state == 1 && c == 'a') {strcpy(page.fileName, "2.txt"); state = 2;}
         else if (state == 1 && c == 'b') {strcpy(page.fileName, "3.txt"); state = 3;}
@@ -43,8 +44,11 @@ int main()
         else if (state == 9 && c == 'a') {strcpy(page.fileName, "12.txt"); state = 12;}
         else if (state == 9 && c == 'b') {strcpy(page.fileName, "10.txt"); state = 10;}
 
-        if (state == 3 || state == 4) break;  // Accepting state
-
+        if (state == 5 || state == 8 || state == 10 || state == 11 || state == 12) 
+        {
+            openPage(page);
+            break;
+        }
     }
 
     return 0;
